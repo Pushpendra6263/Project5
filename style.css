@@ -10,7 +10,7 @@
     src: url(./Fonts/Ubuntu-M.woff2);
 }
 @font-face {
-    font-family: gilroy;
+    font-family: gil;
     src: url(./Fonts/GILROY-LIGHT.woff2);
 }
 
@@ -30,7 +30,8 @@ body {
 
 #main {
     /* width: 100%; */
-    font-family: gilroy;
+    font-family: gil;
+    font-weight: 500;
 }
 
 #nav-bar {
@@ -1527,6 +1528,7 @@ swiper-slide .slide-btm .text>p {
     font-size: 1.3vmax;
     text-decoration: none;
     color: black;
+    font-weight: 900;
 }
 
 #footer #mid .child a:hover {
