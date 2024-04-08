@@ -58,9 +58,10 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    /* -webkit-box-pack: space-evenly; */
+        /* -ms-flex-pack: space-evenly; */
+            /* justify-content: space-evenly; */
+            gap: 3vmax;
     width: 40%;
 }
 
@@ -70,6 +71,7 @@ body {
     text-decoration: none;
     /* color: black; */
     color: rgb(234, 80, 80);
+    font-size: 2.5vmin;
 
 }
 
@@ -229,7 +231,7 @@ body {
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
-    background-image: url(./Media/bgimg4.avif);
+    background-image: url(./Media/bgimg4.webp);
     line-height: 1;
 }
 
