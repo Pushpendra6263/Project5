@@ -244,7 +244,8 @@ body {
     font-size: 15px;
     width: 85%;
     text-align: left;
-    /* font-family: gil; */
+    font-family: uban;
+    font-weight: 100;
 }
 
 #p1-left #button {
